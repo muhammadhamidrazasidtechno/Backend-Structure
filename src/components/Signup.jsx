@@ -18,7 +18,7 @@ const Header = ({val}) => {
             <NavItem onClick={() => val('Course Add')}>Course Add</NavItem>
             <NavItem onClick={() => val('Enrolled Student Course')}>Enrolled Student Course</NavItem>
             <NavItem onClick={() => val('Get All Courses')}>Get All Courses</NavItem>
-            <NavItem onClick={() => val('Course Student Get By Id')}>Course Student Get By Id</NavItem>
+            <NavItem onClick={() => val('Get Course Students')}>Get Course Students</NavItem>
             <NavItem onClick={() => val('Get Student All Courses')}>Get Student All Courses</NavItem>
             <NavItem onClick={() => val('Student Assignment Submit')}>Student Assignment Submit</NavItem>
             <NavItem onClick={() => val('Teacher Assignment Submit')}>Teacher Assignment Submit</NavItem>

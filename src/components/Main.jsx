@@ -32,7 +32,7 @@ const Main = ({ component }) => {
         return <EnrolledStudentCourse />
       case "Get All Courses":
         return <GetAllCourses />
-      case "Course Student Get By Id":
+      case "Get Course Students":
         return <CourseStudentGetById />
       case "Get Student All Courses":
         return <GetStudentAllCourses />
