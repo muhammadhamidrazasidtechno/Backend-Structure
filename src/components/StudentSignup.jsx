@@ -6,7 +6,7 @@ const StudentSignup = () => {
     <div className="signup-container">
       <div className="signup-section">
         <label className="signup-label">Student Signup Link</label>
-        <p className="signup-text">Link: <a href="https://links-backend-ziof.onrender.com/student/login" className="text-blue-500 hover:underline">https://links-backend-ziof.onrender.com/student/login</a></p>
+        <p className="signup-text">Link: <a href="https://links-ehps.onrender.com/student/signup" className="text-blue-500 hover:underline">https://links-ehps.onrender.com/student/signup</a></p>
       </div>
       <div className="signup-section">
         <label className="signup-label">Link Method</label>

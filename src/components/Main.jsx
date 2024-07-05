@@ -13,38 +13,41 @@ import TeacherAssignmentSubmit from './TeacherAssignmentSubmit';
 import GetTeacherAssignment from './GetTeacherAssignment';
 import GetALLTeacherAssignment from './GetALLTeacherAssignment';
 import DeleteTeacherAssignment from './DeleteTeacherAssignment';
+import UpdateTeacherAssignment from './UpdateTeacherAssignment';
 
 const Main = ({ component }) => {
   const renderComponent = () => {
     switch (component) {
       case "Student Signup":
-        return <StudentSignup/>
+        return <StudentSignup />
       case "Student Login":
-        return <StudentLogin/>
+        return <StudentLogin />
       case "Teacher Signup":
-        return <TeacherSignup/>
+        return <TeacherSignup />
       case "Teacher Login":
-        return <TeacherLogin/>
+        return <TeacherLogin />
       case "Course Add":
-        return <CourseAdd/>
+        return <CourseAdd />
       case "Enrolled Student Course":
-        return <EnrolledStudentCourse/>
+        return <EnrolledStudentCourse />
       case "Get All Courses":
-        return <GetAllCourses/>
+        return <GetAllCourses />
       case "Course Student Get By Id":
-        return <CourseStudentGetById/>
+        return <CourseStudentGetById />
       case "Get Student All Courses":
-        return <GetStudentAllCourses/>
+        return <GetStudentAllCourses />
       case "Student Assignment Submit":
-        return <StudentAssignmentSubmit/>
+        return <StudentAssignmentSubmit />
       case "Teacher Assignment Submit":
-        return <TeacherAssignmentSubmit/>
+        return <TeacherAssignmentSubmit />
       case "Get Teacher Assignment":
-        return <GetTeacherAssignment/>
+        return <GetTeacherAssignment />
       case "Get ALL Teacher Assignment":
-        return <GetALLTeacherAssignment/>
+        return <GetALLTeacherAssignment />
       case "Delete Teacher Assignment":
-        return <DeleteTeacherAssignment/>
+        return <DeleteTeacherAssignment />
+      case "Update Teacher Assignment":
+        return <UpdateTeacherAssignment />
       default:
         return '';
     }
