@@ -36,9 +36,39 @@
     color: #4b5563; /* equivalent to text-gray-700 in Tailwind */
   }
   
-  .signup-text a{
-    display: block;
+  .signup-text .box-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     background-color: #f3f4f6;
     border-radius: 0.5rem;
+  }
+  .copy-success-message {
+    margin-top: 0.5rem;
+    color: green;
+    font-size: 0.875rem;
+    position: absolute;
+    top: -55px;
+    left: -34px;
+  }
+  
+  .signup-text a:hover {
+    background-color: #e5e7eb;
+    cursor: pointer;
+  }
+  
+  .copy-button {
+    background-color: #4b5563;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .copy-button:hover {
+    background-color: #374151;
   }
