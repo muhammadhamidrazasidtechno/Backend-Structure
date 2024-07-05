@@ -36,3 +36,9 @@
     color: #4b5563; /* equivalent to text-gray-700 in Tailwind */
   }
   
+  .signup-text a{
+    display: block;
+    padding: 1rem;
+    background-color: #f3f4f6;
+    border-radius: 0.5rem;
+  }
