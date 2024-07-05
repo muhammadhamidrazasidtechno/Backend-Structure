@@ -1,0 +1,38 @@
+/* Custom styling for StudentSignup component */
+.signup-container {
+    max-width: 35rem; /* equivalent to max-w-lg in Tailwind */
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .signup-section {
+    padding: 1.5rem;
+  }
+  
+  .signup-label {
+    font-size: 1.25rem; /* equivalent to text-lg in Tailwind */
+    font-weight: 600; /* equivalent to font-semibold in Tailwind */
+    color: #374151; /* equivalent to text-gray-800 in Tailwind */
+    margin-bottom: 1rem;
+  }
+  
+  .signup-text {
+    font-size: 1rem; /* equivalent to text-base in Tailwind */
+    color: #4b5563; /* equivalent to text-gray-700 in Tailwind */
+  }
+  
+  .signup-body {
+    padding: 1rem;
+    background-color: #f3f4f6; /* Light gray background */
+    border-radius: 0.5rem;
+  }
+  
+  .signup-body-item {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem; /* equivalent to text-sm in Tailwind */
+    color: #4b5563; /* equivalent to text-gray-700 in Tailwind */
+  }
+  

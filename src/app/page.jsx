@@ -1,4 +1,5 @@
 'use client'
+import Main from "@/components/Main";
 import Header from "@/components/Signup";
 import { useState } from "react";
 
@@ -12,6 +13,7 @@ export default function Home() {
 
     <>
         <Header val={val}/>
+        <Main component={component}/>
     </>
   );
 }
