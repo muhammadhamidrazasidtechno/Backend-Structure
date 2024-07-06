@@ -11,30 +11,29 @@ const StudentSignup = () => {
         <label className="signup-label">Student Signup Link</label>
         <p className="signup-text">
           Link:{' '}
-          <div className='box-box'>
           https://links-ehps.onrender.com/student/signup
           <ClipboardCopy text="https://links-ehps.onrender.com/student/signup" />
-          </div>
-          
         </p>
       </div>
       <div className="signup-section">
         <label className="signup-label">Link Method</label>
-        <p className="signup-text">Post</p>
+        <p className="signup-text">POST</p>
       </div>
       <div className="signup-section">
         <label className="signup-label">Body</label>
-        <div className="signup-body flex">
+        <div className="signup-body">
           <div>
-            <p className="signup-body-item">"username": "rAZAmuhiuffin",</p>
-            <p className="signup-body-item">"email": "HAMID@gmail.com",</p>
-            <p className="signup-body-item">"password": "123456",</p>
-            <p className="signup-body-item">"phone": "0330271580",</p>
-            <p className="signup-body-item">"cnic": "42301999434302",</p>
-            <p className="signup-body-item">"lastActivity": "2024-06-26"</p>
+            <p className="signup-body-item">&quot;username&quot;: &quot;rAZAmuhiuffin&quot;,</p>
+            <p className="signup-body-item">&quot;email&quot;: &quot;HAMID@gmail.com&quot;,</p>
+            <p className="signup-body-item">&quot;password&quot;: &quot;123456&quot;,</p>
+            <p className="signup-body-item">&quot;phone&quot;: &quot;0330271580&quot;,</p>
+            <p className="signup-body-item">&quot;cnic&quot;: &quot;42301999434302&quot;,</p>
+            <p className="signup-body-item">&quot;lastActivity&quot;: &quot;2024-06-26&quot;</p>
           </div>
           <div>
-            <ClipboardCopy text='"username": "rAZAmuhiuffin","email": "HAMID@gmail.com","password": "123456","phone": "0330271580","cnic": "42301999434302","lastActivity": "2024-06-26"' />
+            <ClipboardCopy
+              text={`&quot;username&quot;: &quot;rAZAmuhiuffin&quot;,&quot;email&quot;: &quot;HAMID@gmail.com&quot;,&quot;password&quot;: &quot;123456&quot;,&quot;phone&quot;: &quot;0330271580&quot;,&quot;cnic&quot;: &quot;42301999434302&quot;,&quot;lastActivity&quot;: &quot;2024-06-26&quot;`}
+            />
           </div>
         </div>
       </div>

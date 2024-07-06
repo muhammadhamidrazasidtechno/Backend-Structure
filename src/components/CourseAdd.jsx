@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import '../app/StudentSignup.css'; // Import the CSS file for styling
 
 const CourseAdd = () => {
@@ -15,13 +15,13 @@ const CourseAdd = () => {
       <div className="signup-section">
         <label className="signup-label">Body</label>
         <div className="signup-body">
-          <p className="signup-body-item">"courseName":"Course",</p>
-          <p className="signup-body-item">"batch":2,</p>
-          <p className="signup-body-item">"teacher":"6684ef2671ef00bbe7fb63d8",</p>
+          <p className="signup-body-item">&quot;courseName&quot;: &quot;Course&quot;,</p>
+          <p className="signup-body-item">&quot;batch&quot;: 2,</p>
+          <p className="signup-body-item">&quot;teacher&quot;: &quot;6684ef2671ef00bbe7fb63d8&quot;,</p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CourseAdd
+export default CourseAdd;
