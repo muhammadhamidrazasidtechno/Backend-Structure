@@ -24,6 +24,7 @@ const ClipboardCopy = ({ text }) => {
       <FontAwesomeIcon icon={faCopy} onClick={copyToClipboard} className="copy-icon" />
       {copySuccess && <p className="copy-success-message ">Link copied!</p>}
     </div>
+    
   );
 };
 
